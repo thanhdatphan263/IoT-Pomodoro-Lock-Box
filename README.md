@@ -16,9 +16,14 @@
 *  Đề tài tạo ra một sự cách ly vật lý. Khi bắt đầu chu kỳ tập trung với thời gian đã được người dùng cài đặt, điện thoại sẽ bị khóa chặt bên trong hộp nhờ cơ chế điều khiển của động cơ servo. Người dùng không thể lấy ra trừ khi hoàn thành thời gian hoặc hệ thống ghi nhận kết quả lên đám mây qua MQTT, nếu người dùng cố ý vi phạm luật thì hệ thống cảm biến sẽ báo hiệu như còi buzzer kêu và đèn led nhấp nháy liên tục và hiển thị thông báo thất bại trên giao diện dashboard. Điều này giúp rèn luyện kỷ luật thép và theo dõi thói quen tập trung trực quan từ xa qua giao diện web Node-RED.
 
 ## 3. Danh mục phần cứng dự kiến
-* Vi điều khiển  ESP32 Dev Board (tích hợp Wi-Fi kết nối MQTT Broker).
+* Vi điều khiển  ESP32 Dev Board .
 * Động cơ Servo  dùng làm chốt khóa nắp hộp tự động.
 * Cảm biến khoảng cách siêu âm HC-SR04 để nhận diện xem điện thoại đã được đặt vào trong hộp hay chưa.
 * Màn hình hiển thị thời gian đếm ngược và còi Buzzer phát âm thanh cảnh báo khi có sự cố hoặc hoàn thành chu kỳ.
-  
+* ## 4. Nguyên lý hoạt động
+* Khởi động: Người dùng đặt điện thoại vào hộp, cảm biến xác nhận thiết bị nằm đúng vị trí.
+* Khóa hộp: Nhấn nút kích hoạt, ESP32 điều khiển servo đóng chốt khóa và bắt đầu đếm ngược thời gian Pomodoro.
+* Giám sát: MQTT truyền tải trạng thái thời gian thực về Node-RED Dashboard để hiển thị trực quan.
+* Xử lý hoàn thành: Hết thời gian, hộp tự động mở khóa, còi báo hiệu thành công.
+* Xử lý vi phạm: Nếu mở hộp sớm khi chưa hết giờ, còi buzzer hú lớn, đèn LED nhấp nháy và gửi cảnh báo về Dashboard qua MQTT.
 ****
