@@ -16,29 +16,14 @@
 *  Đề tài tạo ra một sự cách ly vật lý. Khi bắt đầu chu kỳ tập trung với thời gian đã được người dùng cài đặt, điện thoại sẽ bị khóa chặt bên trong hộp nhờ cơ chế điều khiển của động cơ servo. Người dùng không thể lấy ra trừ khi hoàn thành thời gian hoặc hệ thống ghi nhận kết quả lên đám mây qua MQTT, nếu người dùng cố ý vi phạm luật thì hệ thống cảm biến sẽ báo hiệu như còi buzzer kêu và đèn led nhấp nháy liên tục và hiển thị thông báo thất bại trên giao diện dashboard. Điều này giúp rèn luyện kỷ luật thép và theo dõi thói quen tập trung trực quan từ xa qua giao diện web Node-RED.
 
 ## 3. Danh mục phần cứng dự kiến
-* Vi điều khiển  ESP32 Dev Board.
 
-<img width="433" height="176" alt="ESP32" src="https://github.com/user-attachments/assets/a7cd7388-2dfb-45e1-a1d7-4b225a7369f7" />
-
-  
-* Động cơ Servo  dùng làm chốt khóa nắp hộp tự động.
-
-<img width="210" height="178" alt="servo_SG90" src="https://github.com/user-attachments/assets/a2b707d8-adc2-4d07-9f25-6cd2decf6490" />
-
-  
-* Cảm biến khoảng cách siêu âm HC-SR04 để nhận diện xem điện thoại đã được đặt vào trong hộp hay chưa.
-
-<img width="225" height="190" alt="cam_bien_sieu_am_HCSR04" src="https://github.com/user-attachments/assets/ebb3e66f-a2f6-4dfc-a3d0-a42d09078284" />
-
-  
-* Màn hình oled 1.3 inch hiển thị thời gian đếm ngược và trạng thái.
-  
-<img width="239" height="205" alt="oled_1 3inch" src="https://github.com/user-attachments/assets/0f653fdb-d065-4647-be0f-9f0d7740290b" />
-
-
-* Còi Buzzer
-
-  <img width="254" height="117" alt="BUZZER" src="https://github.com/user-attachments/assets/6b3d90b9-ba7f-455d-9143-01d5557d8a85" />
+| STT | Tên linh kiện | Số lượng | Chức năng |
+| :---: | :--- | :---: | :--- |
+| 1 | **Vi điều khiển ESP32 Dev Board**<br><br><img width="150" src="https://github.com/user-attachments/assets/a7cd7388-2dfb-45e1-a1d7-4b225a7369f7" /> | 1 | - Quản lý logic toàn bộ hệ thống.<br>- Xử lý dữ liệu từ cảm biến siêu âm và điều khiển động cơ servo, màn hình, còi buzzer.<br>- Kết nối Wi-Fi và truyền tải trạng thái qua giao thức MQTT. |
+| 2 | **Động cơ Servo SG90**<br><br><img width="120" src="https://github.com/user-attachments/assets/a2b707d8-adc2-4d07-9f25-6cd2decf6490" /> | 1 | - Nhận xung PWM từ vi điều khiển để đóng/mở chốt khóa nắp hộp tự động trong suốt chu kỳ Pomodoro. |
+| 3 | **Cảm biến khoảng cách siêu âm HC-SR04**<br><br><img width="120" src="https://github.com/user-attachments/assets/ebb3e66f-a2f6-4dfc-a3d0-a42d09078284" /> | 1 | - Đo khoảng cách để nhận diện xem điện thoại đã được đặt vào đúng vị trí bên trong hộp hay chưa trước khi kích hoạt khóa. |
+| 4 | **Màn hình OLED 1.3 inch**<br><br><img width="120" src="https://github.com/user-attachments/assets/0f653fdb-d065-4647-be0f-9f0d7740290b" /> | 1 | - Giao tiếp qua chuẩn I2C.<br>- Hiển thị thời gian đếm ngược của chu kỳ tập trung và trạng thái hoạt động trực tiếp tại thiết bị. |
+| 5 | **Còi Buzzer**<br><br><img width="120" src="https://github.com/user-attachments/assets/6b3d90b9-ba7f-455d-9143-01d5557d8a85" /> | 1 | - Phát âm thanh cảnh báo khi phát hiện hành vi cố tình mở hộp trái phép hoặc báo hiệu hoàn thành chu kỳ Pomodoro. |
 
 ## 4. Sơ đồ khối kết nối
 
