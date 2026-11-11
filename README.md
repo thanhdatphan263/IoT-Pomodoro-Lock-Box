@@ -28,7 +28,8 @@
 
 ## 4. Sơ đồ khối kết nối
 
-<img width="835" height="549" alt="IOT_ROOM_SODOKHOI" src="https://github.com/user-attachments/assets/211e367a-bca9-42f2-bb77-b9116e5c6ce4" />
+<img width="788" height="424" alt="LOCK_BOX_SODOKHOI" src="https://github.com/user-attachments/assets/24876131-2bc1-4523-8ee1-53a4583ed92e" />
+
 
 
   
