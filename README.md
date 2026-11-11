@@ -53,8 +53,13 @@
 * Xử lý hoàn thành: Hết thời gian, hộp tự động mở khóa, còi báo hiệu thành công.
 * Xử lý vi phạm: Nếu mở hộp sớm khi chưa hết giờ, còi buzzer hú lớn, đèn LED nhấp nháy và gửi cảnh báo về Dashboard qua MQTT.
 
+## 6. Lưu đồ thuật toán
 
-## 6. Tài liệu tham khảo & Datasheet linh kiện
+<img width="724" height="550" alt="luu_do_thuat_toan LOCKBOX" src="https://github.com/user-attachments/assets/bc1b1998-5063-4207-9cbb-5606c59d91bc" />
+
+
+
+## 7. Tài liệu tham khảo & Datasheet linh kiện
 
 * [ESP32 DevKit Datasheet - Espressif Systems](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
 * [SG90 TowerPro Micro Servo Specification](https://www.electronicshub.org/mg90s-servo-motor/)
