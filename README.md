@@ -24,7 +24,7 @@
 | 3 | **Cảm biến khoảng cách siêu âm HC-SR04**<br><br><img width="120" src="https://github.com/user-attachments/assets/ebb3e66f-a2f6-4dfc-a3d0-a42d09078284" /> | 1 | - Đo khoảng cách để nhận diện xem điện thoại đã được đặt vào đúng vị trí bên trong hộp hay chưa trước khi kích hoạt khóa. |
 | 4 | **Màn hình OLED 1.3 inch**<br><br><img width="120" src="https://github.com/user-attachments/assets/0f653fdb-d065-4647-be0f-9f0d7740290b" /> | 1 | - Giao tiếp qua chuẩn I2C.<br>- Hiển thị thời gian đếm ngược của chu kỳ tập trung và trạng thái hoạt động trực tiếp tại thiết bị. |
 | 5 | **Còi Buzzer**<br><br><img width="120" src="https://github.com/user-attachments/assets/6b3d90b9-ba7f-455d-9143-01d5557d8a85" /> | 1 | - Phát âm thanh cảnh báo khi phát hiện hành vi cố tình mở hộp trái phép hoặc báo hiệu hoàn thành chu kỳ Pomodoro. |
-| 6 | **Đèn LED báo hiệu**<br><br><img width="120" src="https://github.com/user-attachments/assets/ab0ca55f-c28e-4dbb-9022-3b171b850c57" /> | 1 | - Cung cấp tín hiệu cảnh báo trực quan tại chỗ.<br>- Hiển thị trạng thái hoạt động (đang khóa, đang đếm ngược hoặc nháy sáng báo động khi vi phạm). |
+| 6 | **Đèn LED báo hiệu**<br><br><img width="120" src="https://github.com/user-attachments/assets/ab0ca55f-c28e-4dbb-9022-3b171b850c57" /> | 1 | - Cung cấp tín hiệu cảnh báo trực quan tại chỗ.<br>- Hiển thị trạng thái hoạt động. |
 
 ## 4. Sơ đồ khối kết nối
 
