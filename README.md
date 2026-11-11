@@ -42,7 +42,8 @@
 
 ## 4. Sơ đồ khối kết nối
 
-<img width="1626" height="497" alt="so_do_room" src="https://github.com/user-attachments/assets/ab0c61fe-8641-428f-995e-72b8ef8a7f5b" />
+<img width="835" height="549" alt="IOT_ROOM_SODOKHOI" src="https://github.com/user-attachments/assets/211e367a-bca9-42f2-bb77-b9116e5c6ce4" />
+
 
   
 * ## 5. Nguyên lý hoạt động
