@@ -31,9 +31,10 @@
 <img width="225" height="190" alt="cam_bien_sieu_am_HCSR04" src="https://github.com/user-attachments/assets/ebb3e66f-a2f6-4dfc-a3d0-a42d09078284" />
 
   
-* Màn hình hiển thị thời gian đếm ngược.
+* Màn hình oled 1.3 inch hiển thị thời gian đếm ngược và trạng thái.
   
-<img width="262" height="208" alt="MAN_HINH" src="https://github.com/user-attachments/assets/b72fa3fa-77d4-4ec1-bfb7-052f1b291638" />
+<img width="239" height="205" alt="oled_1 3inch" src="https://github.com/user-attachments/assets/0f653fdb-d065-4647-be0f-9f0d7740290b" />
+
 
 * Còi Buzzer
 
