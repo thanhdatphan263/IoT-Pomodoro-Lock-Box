@@ -47,9 +47,7 @@
 ## 7. Tài liệu tham khảo & Datasheet linh kiện
 
 * [ESP32 DevKit Datasheet - Espressif Systems](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
-* [SG90 TowerPro Micro Servo Specification](https://www.electronicshub.org/mg90s-servo-motor/)
 * [HC-SR04 Ultrasonic Sensor Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)
-* [Piezo Buzzer Working Principle - Electronics Hub](https://www.electronicshub.org/piezo-buzzer/)
 * [PubSubClient MQTT Library Documentation](https://github.com/knolleary/pubsubclient)
 * [Node-RED Documentation](https://nodered.org/docs/)
   
