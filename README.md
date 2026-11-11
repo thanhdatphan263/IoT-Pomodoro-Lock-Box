@@ -33,7 +33,7 @@
 
 
   
-* ## 5. Nguyên lý hoạt động
+## 5. Nguyên lý hoạt động
 * Khởi động: Người dùng đặt điện thoại vào hộp, cảm biến xác nhận thiết bị nằm đúng vị trí.
 * Khóa hộp: Nhấn nút kích hoạt, ESP32 điều khiển servo đóng chốt khóa và bắt đầu đếm ngược thời gian Pomodoro.
 * Giám sát: MQTT truyền tải trạng thái thời gian thực về Node-RED Dashboard để hiển thị trực quan.
